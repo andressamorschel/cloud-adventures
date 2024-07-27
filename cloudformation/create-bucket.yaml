@@ -1,0 +1,8 @@
+Resources:
+  MyS3Bucket:
+    Type: AWS::S3::Bucket
+    DeletionPolicy: Delete
+    Properties: 
+      BucketName: my-bucket-attachments
+      # AccessControl: PublicRead -> [DEPRECATED] Allow public read to our bucket
+      
